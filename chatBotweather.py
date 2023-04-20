@@ -127,7 +127,7 @@ else:
         chatTxt=input("Enter CITY NAME or BYE: ")
         gb=['GOOD BYE', 'BYE', 'EXIT']
         if chatTxt.upper() in gb:
-            print("GOOD BYE FROM WEATHER SEARCH.")
+            print("GOOD BYE FROM WEATHER SEARCH. Goodbye")
             speak("GOOD BYE FROM WEATHER SEARCH.")
             return False
         else:
